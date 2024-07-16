@@ -7,7 +7,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f4f4f4;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 body.dark {
@@ -92,4 +92,9 @@ li button:hover {
 .filter-btn.active {
     background-color: #333;
     color: white;
+}
+
+body.dark .filter-btn.active {
+    background-color: #f4f4f4;
+    color: #333;
 }
